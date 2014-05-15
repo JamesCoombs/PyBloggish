@@ -1,0 +1,1 @@
+Concept: Write a python script that takes in a bunch of txt files and spits out a bunch of HTML files. These HTML files are then uploaded to a web server along with a css file to create a very fast website.

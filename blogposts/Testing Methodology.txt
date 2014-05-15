@@ -1,0 +1,1 @@
+I know a good way to develop code is to first write the tests I'll use later on. I've been using the method in my coursera courses without even realising it. They also used automatic computer testing although I suspect this is beyond me at the moment.

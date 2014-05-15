@@ -1,0 +1,2 @@
+I just finished Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman by Ben Frain. It was very very good. The concept of patterns as a shared language for communicating what would otherwise be very complex and individual circumstances is a brilliant idea.
+It's also amazing just how close this book comes to being the book I wanted to write for entrepreneurship. I can now use this book as my guide to my development.
