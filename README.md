@@ -1,7 +1,7 @@
 ##PyBloggish
 ==========
 
-#PyBloggish is a breakable toy that allows me to maintain a light and simple blog with just a folder of text files
+PyBloggish is a breakable toy that allows me to maintain a light and simple blog with just a folder of text files
 
 #Project History
 
