@@ -18,7 +18,7 @@ import os
 ## items containing "._"
 #########################################################################
 
-blog_posts = os.listdir(os.getcwd() + "/blogposts")
+blog_posts = os.listdir(os.getcwd() + "/blogposts") #(!MAKE THIS A FUNCTION!)
 
 blog_posts_formated = []
 
@@ -28,7 +28,7 @@ for i in blog_posts:
 
 ## Create a list of all the content to be applied to each webpage
 
-blog_posts_content = []
+blog_posts_content = [] #(!MAKE THIS A FUNCTION!)
 
 for i in blog_posts_formated:
     temp = open(os.getcwd() + "/blogposts/" + i)
@@ -51,11 +51,12 @@ nav_list_link = []
 nav_list_title = []
 
 
-# 1. Remove the .txt suffixes (MAKE THIS A FUNCTION)
+# 1. Remove the .txt suffixes (!!!!!MAKE THIS A FUNCTION!!!!!)
 for h in blog_posts_nav:
     h = h[:-4]
     blog_posts_nav_clean.append(h) # Use this one for showing names
 
+# (!!!MAKE THIS A FUNCTION, FROM HERE...!!!!)
 # 2. Add the .html suffix
 for h in blog_posts_nav_clean: 
     h = h + ".html"
@@ -69,9 +70,11 @@ for h in blog_posts_nav_html:
 for h in blog_posts_nav_nws:
     h = h.lower()
     blog_posts_nav_lower.append(h)
+#(!!!...UNTIL HERE!!!)
     
 # 4. Create a list of html strings, and iterate through them, replacing with
 #    content from our created lists.
+#(!!!CREATE ONE FUNCTION, FROM HERE....)
 for h in [x for x in range(len(blog_posts_nav_lower))]:
     nav_list.append('<li><a href="BLOG LINK">BLOG TITLE</a></li>')
     
@@ -85,6 +88,7 @@ for h in [x for x in range(len(blog_posts_nav_lower))]:
     
 # 5. Create an full HTML string by concatonating the final list  
 nav_list_final = "<ul>" + "</n>".join(nav_list_title) + "</ul>"
+#(...TO HERE!!!!)
 
 ##########################################################################    
 ## Using our formated html to creating a list of HTML strings, one
